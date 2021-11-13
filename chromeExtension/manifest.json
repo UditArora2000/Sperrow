@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sperrow",
+  "description": "This extensiom will help identify the truthfullness in the content of your tweet and give you verified information based on your content",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://localhost:3000/*",
+    "http://127.0.0.1:5000/*",
+    "https://twitter.com/home",
+    "storage"
+  ]
+}

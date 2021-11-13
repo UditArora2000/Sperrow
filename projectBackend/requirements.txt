@@ -1,0 +1,7 @@
+bert-extractive-summarizer
+neuralcoref
+transformers
+news-please
+cchardet
+keybert
+beautifulsoup4
